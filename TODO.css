@@ -1,0 +1,129 @@
+.tasklist {
+    padding: 50px;
+    margin: 50px;
+    position: absolute;
+    font-size: 40px;
+    margin-left: 150px;
+    margin-top: -20px;
+    color: orangered;
+  }
+  
+  
+  .add{
+    font-size:40px;
+    margin-left: 40px;
+    margin-top: 40px;
+  }
+  
+  #add {
+    font-size: x-large;
+    color: white;
+    border-radius: 50%;
+    border: solid 3px orangered;
+    margin-left: 700px;
+    margin-top: 40px;
+    cursor: pointer;
+  }
+  
+  .flex-container {  
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-left: 100px;
+  }
+  
+  .card {
+    background-color: aqua;
+    height: 290px;
+    width: 200px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-evenly;
+    font-size: 25px;
+    position: relative;
+  }
+  
+  .card>span {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 30px ;
+    border-radius: 50%;
+    background-color: white;
+    justify-content: end;
+    cursor: pointer;
+  }
+  
+  .delete {
+    right: 80px !important;
+  }
+  
+  .create {
+    display: none;
+  }
+  
+  .card1
+  {
+    background-color: gray;
+    color: orangered;
+    position: absolute;
+    font-size: 20px;
+    z-index: 10;
+    display: none;
+    flex-flow: row wrap;
+    text-align: center;
+    height: 160px;
+    width: 300px;
+    padding: 20px;
+    justify-content: space-around;
+    left: 500px;
+    top: 200px;
+    border-radius: 10px;
+  }
+  .card2{
+    background-color: gray;
+    color: rgba(182, 10, 10, 0.685);
+    position: absolute;
+    z-index: 10;
+    display: none;
+    flex-flow: column wrap;
+    text-align: center;
+    height: 160px;
+    width: 300px;
+    padding: 20px;
+    justify-content: space-around;
+    left: 500px;
+    top: 200px;
+    border-radius: 20px;
+   
+  }
+  #input-text{
+    width: 280px;
+    height: 30px;
+    border: none;
+   }
+  
+  input {
+    border-radius: 10px;
+    height: 25px;
+    border: none;
+  }
+  .popup1>input,
+  .popup1>button,
+  .popup2>input,
+  .popup2>button {
+    border: none;
+    padding: 10px;
+  }
+  button{
+    background-color: orangered;
+    margin-top: 15px;
+    border-radius: 10px;
+    color: white ;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+  }
+  
